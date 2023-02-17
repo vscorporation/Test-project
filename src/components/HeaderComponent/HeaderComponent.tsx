@@ -12,7 +12,7 @@ function HeaderComponent() {
     return (
 
         <Header style={headerStyle}>
-            <Title onClick={() => navigate('/')} style={logoStyle}><AppstoreOutlined/>Test Project</Title>
+            <Title onClick={() => navigate('/Test-project/')} style={logoStyle}><AppstoreOutlined/>Test Project</Title>
         </Header>
     );
 }

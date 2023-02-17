@@ -14,8 +14,8 @@ function App() {
             <HeaderComponent/>
             <Content style={ContentStyle}>
                 <Routes>
-                    <Route path='/' element={<UserListPage/>}/>
-                    <Route path='/posts/:id' element={<UserPostPage/>}/>
+                    <Route path='/Test-project/' element={<UserListPage/>}/>
+                    <Route path='/Test-project/posts/:id' element={<UserPostPage/>}/>
                 </Routes>
             </Content>
            <FooterComponent/>
